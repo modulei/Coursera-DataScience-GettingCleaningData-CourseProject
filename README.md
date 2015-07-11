@@ -12,4 +12,4 @@ This repository contains the R code and documentation for the Course Project fro
 # Instructions
 1. Download this repo to a local working directory
 2. Make sure the working directory for R is set to the local directory containing `run_analysis.R`
-3. Load 'data_set_with_averages.txt' by running the following command in R: `read.table("data_set_wth_averages.txt", header = TRUE)`
+3. Load 'data_set_with_averages.txt' by running the following command in R: `read.table("data_set_with_averages.txt", header = TRUE)`
