@@ -65,6 +65,6 @@ The dataset includes the following files:
 9. Apply the "activity" label to `names(y)`.
 10. Apply the "subject" label to `names(s)`.
 11. Create a comprehensive (merged) table with the newly cleaned and labeled data called `cleaned` and write the result to the file `merged_cleaned_data.txt`.
-12. Create a table called `averages` that merges the cleaned data with a column that 
+12. Create a table called `averages` that merges the `cleaned` data with a column that 
     holds the average of each variable for each activity and each subject. 
 13. Write an output file called `data_set_with_averages.txt` that contains data from `averages`.
