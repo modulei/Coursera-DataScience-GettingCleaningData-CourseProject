@@ -90,7 +90,7 @@ names(y) <- "activity"
 names(s) <- "subject"
 
 # Merge tables s, x, and y to single data set
-cleaned <- cbind(x,y,s)Cr
+cleaned <- cbind(x,y,s)
 write.table(cleaned, "merged_cleaned_data.txt")
 
 
@@ -99,5 +99,3 @@ write.table(cleaned, "merged_cleaned_data.txt")
 averages <- ddply(cleaned, .(subject, activity), function(x) colMeans(x[, 1:66]))
 
 write.table(averages, "data_set_with_averages.txt", row.name=FALSE)
-
-
